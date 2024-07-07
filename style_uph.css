@@ -1,0 +1,167 @@
+/* styles.css */
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#foot{
+  background-color:#00204A;
+  color:white;
+}
+
+  bottom:0;
+}
+
+#labelem{
+  margin:2.5px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074D9;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.card{
+  margin:15px;
+  width:20%;
+   transition: transform 0.3s ease; /* Add a smooth transition for transform */
+}
+
+.cards{
+  display:flex;
+}
+.card:hover {
+    transform: scale(1.05); /* Slightly zoom in the card on hover */
+}
+
+.img{
+  width:auto;
+}
+.form{
+  background-color:#E6F7FF;
+  margin:10px;
+  padding:5px;
+}
+#btnprimary{
+  justify-content:center;
+  align-items:center;
+  width:260px;
+  margin-left:30%;
+  margin-right:30%;
+  background-color:#2BA169;
+}
+.cta-button:hover {
+    background-color: white;
+  color:black;
+}
+#col{
+  bottom:7px;
+}
+.cta-button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5CDB95;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button2:hover {
+    background-color: white;
+  color:black;
+}
+
+
+/* Navbar styles */
+.navbar {
+    background: #00204a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+   
+  width: 100%; /* Adjust the width */
+}
+@media screen and (max-width: 768px) {
+  /* Styles for smaller screens */
+  li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+.logo img {
+  padding-left:10px;
+    height:70px; /* Adjust logo size */border: 2px solid #00204A;
+    border-radius: 90%;
+    /* Add rounded shape */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+/* Hero section styles */
+.hero {
+    display: flex;
+    align-items: center;
+    background: #005792;
+    color: #fff;
+    padding: 3px;
+}
+.logo{
+  display:flex;
+}
+.Head{
+  margin-top:0px;
+  
+}
+.Title{
+  padding-left:15px;
+  font-family: Roboto;
+  font-size: 1.8rem;
+  
+}
+.hero-content {
+    flex: 1;
+  margin-left:25px;
+}
+.hero-image img{
+  height:270px;
+  
+  
+}
+.hero-image{
+  padding:20px;
+  padding-right:60px;
+  padding-top:3px;
+  padding-bottom:3px;
+}
+.hero h1 {
+    font-size: 2rem;
+}
+
+/* Header section styles */
+.header {
+    background: #00bbf0;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+/* Add styles for other sections as needed */
